@@ -9,7 +9,7 @@ class HrContract(models.Model):
         contract_ids = self.search([('state', '=', 'open')])
         contract_reminder_days = self.env['ir.config_parameter'].sudo().get_param('employee_contract_reminder.contract_reminder_days')
         if not contract_reminder_days:
-            raise Warning(_('Please set Contract Reminder Days in settings.'))
+            pass
         for contract in contract_ids:
             if contract.date_end:
                 date_end = fields.Date.from_string(contract.date_end)
