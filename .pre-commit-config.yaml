@@ -7,5 +7,5 @@ repos:
           - --addons-dir=.
           - --org-name=agungsepruloh
           - --repo-name=employee_contract
-          - --branch=14.0
+          - --branch=15.0
       - id: oca-gen-addons-table
