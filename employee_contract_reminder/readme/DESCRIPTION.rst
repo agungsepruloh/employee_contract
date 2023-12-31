@@ -18,3 +18,15 @@ The module is easy to configure and use. You can set the number of days before t
 **4. User-Friendly Interface ✅**
 
 The module has a user-friendly interface that allows you to easily configure and use the module.
+
+
+Screenshots
+^^^^^^^^^^^^^
+
+.. image:: static/description/screenshot_3.png
+    :alt: Employee Contract Reminder Days
+    :width: 100%
+
+.. image:: static/description/screenshot_5.png
+    :alt: Example of Email
+    :width: 100%
