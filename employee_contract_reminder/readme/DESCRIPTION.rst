@@ -29,4 +29,4 @@ Screenshots
 
 .. image:: static/description/screenshot_5.png
     :alt: Example of Email
-    :width: 100%
+    :width: 70%
