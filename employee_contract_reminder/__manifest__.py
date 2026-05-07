@@ -1,39 +1,30 @@
-# -*- coding: utf-8 -*-
 {
     'name': "Employee Contract Reminder",
-
     'summary': """
-        This module will send an email to the employee when the contract is about to expire.
+        Automated email notifications for expiring employee contracts.
     """,
-
     'description': """
-        This module will send an email to the employee when the contract is about to expire.
+        This module sends automatic email reminders to employees when their
+        employment contracts are approaching expiration. Configurable reminder
+        period and customizable email template ensure timely notifications
+        for contract renewal discussions.
     """,
-
     'author': "Agung Sepruloh",
-    'website': "https://github.com/agungsepruloh",
+    'website': "https://agungsepruloh.github.io",
     'maintainers': ['agungsepruloh'],
-    'license': 'LGPL-3',
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Generic Modules/Human Resources',
+    'license': 'OPL-1',
+    'category': 'Human Resources',
     'version': '19.0.1.0.0',
-
-    # any module necessary for this one to work correctly
-    # Changed from hr_contract to hr for Odoo 19 (hr_contract merged into hr)
     'depends': ['base', 'hr'],
-
-    # always loaded
     'data': [
         'views/res_config_settings_views.xml',
         'data/ir_cron_data.xml',
         'data/mail_data.xml',
     ],
-    # only loaded in demonstration mode
     'demo': [],
-
     'images': ['static/description/banner.gif'],
     'application': True,
+    'installable': True,
+    'price': 12.00,
+    'currency': 'USD',
 }
