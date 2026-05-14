@@ -13,6 +13,8 @@ Screenshots
 
 .. image:: static/description/screenshot_3.png
    :alt: Contract Reminder Settings
+   :width: 100%
 
 .. image:: static/description/screenshot_5.png
    :alt: Example Email Notification
+   :width: 70%
